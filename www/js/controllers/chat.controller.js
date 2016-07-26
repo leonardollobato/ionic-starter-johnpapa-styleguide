@@ -1,7 +1,7 @@
 (function(){
     'use strict';
 
-    angular.module('starter')
+    angular.module('app')
         .controller('ChatController', ChatController);
 
     ChatController.$inject = ['Chats'];

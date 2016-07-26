@@ -2,7 +2,7 @@
 (function(){
    'use strict';
 
-   angular.module('starter')
+   angular.module('app')
         .controller('ChatDetailController', ChatDetailController);
 
    ChatDetailController.$inject = ['$stateParams', 'Chats'];
