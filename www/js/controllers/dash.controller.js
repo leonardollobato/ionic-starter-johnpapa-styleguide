@@ -4,9 +4,9 @@
     angular.module('app')
         .controller('DashController', DashController);
 
-    DashController.$inject = [];
+    DashController.$inject = ['Transacoes'];
 
-    function DashController(){
-
+    function DashController(Transacoes){
+        console.log(Transacoes.all());
     }
 })();
